@@ -26,12 +26,12 @@ or
 In Linux environment. Remember to use the right privileges such as Root user or Sudo command.
 In my case, I used Root privileged.
 
-go build  var.go   
+# go build  var.go   
 
-ls
+# ls
 Desktop  Documents  Downloads  Music  net.go  Pictures  Public  Templates  test  test.go  testing.git  var  var.go  Videos
 
-#./var
+# ./var
 
 PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 
@@ -89,17 +89,17 @@ GOROOT=>
 
 If you want to deploy Golang over the Ubuntu o Kali Linux, please follow the next commands. 
 
-sudo apt-get install -y golang
+# sudo apt-get install -y golang
 
-sudo nano ~/.bashrc
+# sudo nano ~/.bashrc
 
-export GOROOT=/usr/local/go
+# export GOROOT=/usr/local/go
 
-export GOPATH=$HOME/go
+# export GOPATH=$HOME/go
 
-export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
+# export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
-source .bashrc
+# source .bashrc
 
 At this point, you are able to run go programs in your own environment.
 
