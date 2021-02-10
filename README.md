@@ -1,5 +1,5 @@
 # Lists Environment Variables (var.go)  
-# lists information about network interfaces (net.go)
+# lists information about network interfaces (network.go)
 # by Victor Gabriel Galvan - info@itborder.ca
 
 NBS Assignment Senior Network Specialist 2021
