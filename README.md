@@ -1,4 +1,7 @@
-# Lists Environment Variables  by Victor Gabriel Galvan - info@itborder.ca
+# Lists Environment Variables  
+# lists information about network interfaces
+# by Victor Gabriel Galvan - info@itborder.ca
+
 NBS Assignment Senior Network Specialist 2021
 
 
