@@ -74,9 +74,13 @@ The output must be changed because of the system.
 The same executable code on play.golang.com show me:
 
 PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 HOSTNAME => 8ca34333c129
+
 CUSTOM => 500
+
 CUSTOM=> 500
+
 GOROOT=> 
 
 If you want to deploy Golang over the Ubuntu o Kali Linux, please follow the next command. 
@@ -95,11 +99,4 @@ At this point, you are able to run Go programs in your own environment.
  
 
  
-
-
-
-  
- 
-
-
 
