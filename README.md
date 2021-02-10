@@ -4,7 +4,7 @@
 
 NBS Assignment Senior Network Specialist 2021
 
-#Lists Environment Variables (Variables.go)
+# Lists Environment Variables (Variables.go)
 
 Hi Team,
 
@@ -106,7 +106,7 @@ At this point, you are able to run go programs in your own environment.
 In addition, you can use git command on Linux. It is included by default. 
 
 
-#Lists information about network interfaces (Network.go)
+# Lists information about network interfaces (Network.go)
 
 My IP address
 
