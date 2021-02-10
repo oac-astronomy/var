@@ -28,32 +28,45 @@ ls
 Desktop  Documents  Downloads  Music  net.go  Pictures  Public  Templates  test  test.go  testing.git  var  var.go  Videos
 
 #./var
+
 PATH => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
 SHELL => /usr/bin/zsh
+
 TERM => xterm
+
 LANG => en_US.UTF-8
+
 LS_COLORS => rs
+
 MAIL => /var/mail/root
+
 LOGNAME => root
+
 USER => root
+
 HOME => /root
+
 SUDO_COMMAND => /usr/bin/zsh
+
 SUDO_USER => kali
+
 SUDO_UID => 1000
+
 SUDO_GID => 1000
+
 SHLVL => 1
+
 PWD => /home/kali
+
 OLDPWD => /home/kali/testing.git
-LESS_TERMCAP_mb =>
-LESS_TERMCAP_md =>
-LESS_TERMCAP_me =>
-LESS_TERMCAP_so =>
-LESS_TERMCAP_se =>
-LESS_TERMCAP_us =>
-LESS_TERMCAP_ue =>
+
 _ => /home/kali/./var
+
 CUSTOM => 500
+
 CUSTOM=> 500
+
 GOROOT=>
 
 The output must be changed because of the system. 
