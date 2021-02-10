@@ -2,7 +2,7 @@
 NBS Assignment Senior Network Specialist 2021
 
 
-Hi everyone,
+Hi Team,
 
 There is my NBS Assignment so I would like to explain what I did.
 
