@@ -112,7 +112,7 @@ My IP address
 
 #ifconfig
 
-eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+		eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
         inet 192.168.2.216  netmask 255.255.255.0  broadcast 192.168.2.255
 
@@ -134,7 +134,7 @@ eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
         TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+		lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
         inet 127.0.0.1  netmask 255.0.0.0
 
@@ -152,7 +152,7 @@ lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
 ip a
 
-1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+	1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
 
     link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
 
@@ -164,7 +164,7 @@ ip a
 
 	valid_lft forever preferred_lft forever
 
-2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
+	2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc pfifo_fast state UP group default qlen 1000
     
 	link/ether 00:0c:29:3d:e7:e0 brd ff:ff:ff:ff:ff:ff
 
