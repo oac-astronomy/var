@@ -21,7 +21,9 @@ It can be compiled on
 or 
 In Linux environment. Remember to use the right privileges such as Root user or Sudo command.
 In my case, I used Root privileged.
+
 go build  var.go   
+
 ls
 Desktop  Documents  Downloads  Music  net.go  Pictures  Public  Templates  test  test.go  testing.git  var  var.go  Videos
 
