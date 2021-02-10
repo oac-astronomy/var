@@ -1,4 +1,4 @@
-# var by Victor Gabriel Galvan - info@itborder.ca
+# Lists Environment Variables  by Victor Gabriel Galvan - info@itborder.ca
 NBS Assignment Senior Network Specialist 2021
 
 
