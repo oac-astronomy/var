@@ -1,4 +1,4 @@
-# var by Victor Gabriel Galvan
+# var by Victor Gabriel Galvan - info@itborder.ca
 NBS Assignment Senior Network Specialist 2021
 
 
@@ -83,18 +83,25 @@ CUSTOM=> 500
 
 GOROOT=> 
 
-If you want to deploy Golang over the Ubuntu o Kali Linux, please follow the next command. 
+If you want to deploy Golang over the Ubuntu o Kali Linux, please follow the next commands. 
 
 sudo apt-get install -y golang
 
 sudo nano ~/.bashrc
+
 export GOROOT=/usr/local/go
+
 export GOPATH=$HOME/go
+
 export PATH=$GOPATH/bin:$GOROOT/bin:$PATH
 
 source .bashrc
 
-At this point, you are able to run Go programs in your own environment.
+At this point, you are able to run go programs in your own environment.
+
+In addition, you can use git command on Linux. It is included by default. 
+
+
 
  
 
