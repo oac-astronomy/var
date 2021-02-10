@@ -110,7 +110,7 @@ In addition, you can use git command on Linux. It is included by default.
 
 My IP address
 
-ifconfig
+#ifconfig
 
 eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
