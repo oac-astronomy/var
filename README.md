@@ -110,47 +110,47 @@ In addition, you can use git command on Linux. It is included by default.
 
 My IP address
 
-#ifconfig
+# ifconfig
 
-		eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+	eth0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
-        inet 192.168.2.216  netmask 255.255.255.0  broadcast 192.168.2.255
+    inet 192.168.2.216  netmask 255.255.255.0  broadcast 192.168.2.255
 
-        inet6 fe80::20c:29ff:fe3d:e7e0  prefixlen 64  scopeid 0x20<link>
+    inet6 fe80::20c:29ff:fe3d:e7e0  prefixlen 64  scopeid 0x20<link>
 
-        inet6 fd74:c308:a7ae:0:c2ad:db5c:f52e:c9e8  prefixlen 64  scopeid 0x0<global>
+    inet6 fd74:c308:a7ae:0:c2ad:db5c:f52e:c9e8  prefixlen 64  scopeid 0x0<global>
 
-        inet6 fd74:c308:a7ae:0:20c:29ff:fe3d:e7e0  prefixlen 64  scopeid 0x0<global>
+    inet6 fd74:c308:a7ae:0:20c:29ff:fe3d:e7e0  prefixlen 64  scopeid 0x0<global>
 
-        inet6 fd74:c308:a7ae::820  prefixlen 128  scopeid 0x0<global>
+    inet6 fd74:c308:a7ae::820  prefixlen 128  scopeid 0x0<global>
 
-        ether 00:0c:29:3d:e7:e0  txqueuelen 1000  (Ethernet)
+    ether 00:0c:29:3d:e7:e0  txqueuelen 1000  (Ethernet)
 
-        RX packets 50913  bytes 66871505 (63.7 MiB)
+    RX packets 50913  bytes 66871505 (63.7 MiB)
 
-        RX errors 0  dropped 0  overruns 0  frame 0
+    RX errors 0  dropped 0  overruns 0  frame 0
 
-        TX packets 11498  bytes 1363097 (1.2 MiB)
+    TX packets 11498  bytes 1363097 (1.2 MiB)
 
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+    TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-		lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+	lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
 
-        inet 127.0.0.1  netmask 255.0.0.0
+    inet 127.0.0.1  netmask 255.0.0.0
 
-        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+    inet6 ::1  prefixlen 128  scopeid 0x10<host>
 
-        loop  txqueuelen 1000  (Local Loopback)
+    loop  txqueuelen 1000  (Local Loopback)
 
-        RX packets 18  bytes 834 (834.0 B)
+    RX packets 18  bytes 834 (834.0 B)
 
-        RX errors 0  dropped 0  overruns 0  frame 0
+    RX errors 0  dropped 0  overruns 0  frame 0
 
-        TX packets 18  bytes 834 (834.0 B)
+    TX packets 18  bytes 834 (834.0 B)
 
-        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+    TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
 
-ip a
+# ip a
 
 	1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
 
@@ -192,13 +192,13 @@ ip a
 
 └─# ./network
 
-00:0c:29:3d:e7:e0
+# 00:0c:29:3d:e7:e0
 
 2021/02/10 12:49:30 lo 127.0.0.1/8
 
 2021/02/10 12:49:30 lo ::1/128
 
-2021/02/10 12:49:30 eth0 192.168.2.216/24
+# 2021/02/10 12:49:30 eth0 192.168.2.216/24
 
 2021/02/10 12:49:30 eth0 fd74:c308:a7ae::820/128
 
