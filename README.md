@@ -13,6 +13,8 @@ Secondly, I moved the file var.go to my GitHub path to commit with GitHub Deskto
 
 Finally, I wrote a brief explanation of how I did this process.
 
+Technical Info
+
 Compiling your GO Code.
 
 It can be compiled on 
